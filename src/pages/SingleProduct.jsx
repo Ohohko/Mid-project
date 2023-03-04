@@ -2,7 +2,9 @@ import React from 'react'
 
 function SingleProduct() {
   return (
-    <div>SingleProduct</div>
+    <div>
+      <h1>Single Product</h1>
+    </div>
   )
 }
 
