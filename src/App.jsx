@@ -7,6 +7,8 @@ import About from "./pages/About"
 import Shipping from "./pages/Shipping"
 import Shop from "./pages/Shop"
 import SingleProduct from "./pages/SingleProduct"
+import NotFound from "./pages/NotFound"
+import Footer from "./pages/Footer"
 
 function App() {
  
@@ -21,8 +23,10 @@ function App() {
   <Route path="/shipping" element={<Shipping />} />
   <Route path="/shop" element={<Shop />} />
   <Route path="/singleproduct" element={<SingleProduct />} />
+  <Route path='*' element={<NotFound />}/>
   </Routes>
   </div>
+  <Footer/>
   </Router>
   )
 }
