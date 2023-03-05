@@ -8,7 +8,7 @@ import Shipping from "./pages/Shipping"
 import Shop from "./pages/Shop"
 import SingleProduct from "./pages/SingleProduct"
 import NotFound from "./pages/NotFound"
-import Footer from "./pages/Footer"
+import Footer from "./components/Footer"
 
 function App() {
  
