@@ -33,8 +33,8 @@ return (
       <div className="product-card" key={product.id}>
         <img src={product.images[0].src} alt={product.name} />
         <h2>{product.name}</h2>
-        <p>{product.price}</p>
-        <button>Add to cart</button>
+        <p>{product.price+'.00$'}</p>
+        <button className='btn btn-xs sm:btn-md lg:btn-lg'>Add cart</button>
       </div>
     ))}
   </div>
