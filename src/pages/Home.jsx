@@ -6,7 +6,7 @@ function Home() {
   return (
     <html data-theme="dark">
   <div data-theme="light">
-  <div className="hero min-h-screen" style={{ backgroundImage: `url("https://woocommerce-955837-3332579.cloudwaysapps.com/wp-content/uploads/2023/03/gift2.jpeg")` }}>
+  <div className="hero min-h-screen" style={{ backgroundImage: `url("https://ohadk.xyz/wp-content/uploads/2023/03/gift2.jpeg")` }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
