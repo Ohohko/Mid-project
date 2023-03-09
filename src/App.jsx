@@ -8,6 +8,7 @@ import Shipping from "./pages/Shipping"
 import Shop from "./pages/Shop"
 import SingleProduct from "./pages/SingleProduct"
 import NotFound from "./pages/NotFound"
+import CategoryPage from "./pages/CategoryPage"
 import Footer from "./components/Footer"
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
   <Route path="/shipping" element={<Shipping />} />
   <Route path="/shop" element={<Shop />} />
   <Route path="/singleproduct" element={<SingleProduct />} />
+  <Route path='/product/:id' element={<SingleProduct />}/>
+  <Route path='/products/id' element={<CategoryPage />}/>
   <Route path='*' element={<NotFound />}/>
   </Routes>
   </div>

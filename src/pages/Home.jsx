@@ -1,12 +1,13 @@
 import React from 'react'
-import ProductList from '../components/ProductList'
 import { TypeAnimation } from 'react-type-animation'
+import Card from '../components/Card'
+import image from '../img/gift2.jpeg'
 
-function Home() {
+const Home = ()=> {
   return (
     <html data-theme="dark">
   <div data-theme="light">
-  <div className="hero min-h-screen" style={{ backgroundImage: `url("https://ohadk.xyz/wp-content/uploads/2023/03/gift2.jpeg")` }}>
+  <div className="hero min-h-screen" style={{backgroundImage:`url(${image})` }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
@@ -30,7 +31,7 @@ function Home() {
     </div>
   </div>
 </div>
-<ProductList/>
+<Card/>
   </div>
 </html>
     

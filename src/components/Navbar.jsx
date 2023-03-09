@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { TfiShoppingCart } from "react-icons/tfi";
 import VoiceSearch from "./VoiceSearch";
 
+
 function Navbar() {
   return (
     <div className="fixed left-0 right-0 top-0 h-16 ml-3 mr-3">
@@ -71,6 +72,7 @@ function Navbar() {
           </ul>
         </div>
         <TfiShoppingCart />
+      
       </nav>
     </div>
   );
