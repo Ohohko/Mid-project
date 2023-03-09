@@ -3,7 +3,7 @@ import pic from "../img/6.jpeg";
 
 const Card = () =>{
   return (
-<div className="card w-48 bg-base-100 shadow-xl">
+<div className="card w-48 bg-base-100 shadow-xl ml-4 mt-12">
   <figure><img src= {pic}/></figure>
   <div className="card-body">
     <h2 className="card-title">
