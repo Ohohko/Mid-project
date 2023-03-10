@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/Card'
+import Categories from '../components/Categories'
 import FeaturedProducts from '../components/FeaturedProducts'
 import Hero from '../components/Hero'
 
@@ -10,7 +10,7 @@ const Home = ()=> {
   <div data-theme="light">
   <Hero/>
   <FeaturedProducts type="featured"/>
-  <Card/>
+  <Categories/>
   <FeaturedProducts type="trending"/>
   </div>
 

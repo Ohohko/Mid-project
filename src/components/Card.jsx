@@ -1,23 +1,27 @@
 import React from 'react'
-import pic from "../img/6.jpeg";
+import { Link } from 'react-router-dom';
 
-const Card = () =>{
+
+const Card = ({item}) =>{
   return (
-<div className="card w-48 bg-base-100 shadow-xl mt-4 mx-2">
-  <figure><img src= {pic}/></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-      Shoes!
-      <div className="badge badge-secondary">NEW</div>
-    </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div> 
-      <div className="badge badge-outline">Products</div>
-    </div>
-  </div>
+    <Link className='card w-48 bg-base-100 shadow-xl mt-4 mx-2' to={'/product/${item.id}'}>
+<div className='card-body'>
+<div className='image'>
+<img src={item.img} alt='' className='mainImg'/>
+<img src={item.img2} alt='' className='secondImg'/>
 </div>
+<h2 className='badge badge-secondary'>{item.title}</h2>
+<div className='prices'>
+  <h3>${item.oldPrice}</h3>
+  <h3>${item.price}</h3>
+</div>
+</div>
+
+</Link>
   )
 }
 
 export default Card
+
+
+
