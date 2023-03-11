@@ -36,6 +36,34 @@ const FeaturedProducts = ({ type }) => {
       oldPrice: 10,
       price: 5,
     },
+    {
+      id: 5,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
+    {
+      id: 6,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
+    {
+      id: 7,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
+    {
+      id: 8,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
   ];
 
   return (
@@ -48,7 +76,7 @@ const FeaturedProducts = ({ type }) => {
           while for no reason can do wonders.
         </p>
       </div>
-      <div className="bottom">
+      <div className="bottom flex flex-wrap justify-center">
       {data.map(item=>(
         <Card item={item} key={item.id}/>
       ))}
