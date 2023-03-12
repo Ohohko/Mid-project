@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import {GiOldMicrophone} from 'react-icons/gi'
 
 function VoiceSearch() {
     const [isListening, setIsListening] = useState(false);
@@ -18,7 +19,7 @@ function VoiceSearch() {
   return (
     <div>
       <button onClick={startListening} disabled={isListening}>
-        {isListening ? 'Listening...' : 'Start Voice Search'}
+        {isListening ? 'Listening...' : <GiOldMicrophone size={30}/>}
       </button>
       {transcript && <p>You said: {transcript}</p>}
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { auth ,googleProvider } from "../firebase-config";
 import { createUserWithEmailAndPassword, signInWithPopup,signOut } from "firebase/auth";
-
+import {FcGoogle} from 'react-icons/fc'
 
 export const Auth = () => {
   const [email, setEmail] = useState("");
@@ -48,7 +48,7 @@ export const Auth = () => {
       />
       <button onClick={signIn}>Sign In</button>
 
-      <button onClick={signInWithGoogle}>Sign In With Google </button>   
+      <button onClick={signInWithGoogle}><FcGoogle size={25}/></button>   
     <button onClick={logout}>Logout</button>
     </div>
 
