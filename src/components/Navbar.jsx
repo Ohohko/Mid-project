@@ -72,7 +72,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="indicator">
-  <span className="indicator-item indicator-bottom indicator-center badge badge-secondary">0</span>
+  <span className="indicator-item indicator-bottom indicator-center badge badge-warning">0</span>
   <div className="grid w-10 h-10  place-items-center"><TfiShoppingCart size={25} /></div>
 </div>
 

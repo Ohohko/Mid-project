@@ -64,6 +64,27 @@ const FeaturedProducts = ({ type }) => {
       oldPrice: 10,
       price: 5,
     },
+    {
+      id: 9,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gifts",
+      oldPrice: 100,
+      price: 54,
+    },
+    {
+      id: 10,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
+    {
+      id: 11,
+      img: "https://d3m9l0v76dty0.cloudfront.net/system/photos/1776707/extra_large/13e03de5be8f262623b7e8db1292f0df.jpg",
+      title: "Gift demo4",
+      oldPrice: 10,
+      price: 5,
+    },
   ];
 
   return (
