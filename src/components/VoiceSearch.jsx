@@ -17,12 +17,12 @@ function VoiceSearch() {
   };
 
   return (
-    <div>
+    <>
       <button onClick={startListening} disabled={isListening}>
         {isListening ? 'Listening...' : <GiOldMicrophone size={30}/>}
       </button>
       {transcript && <p>You said: {transcript}</p>}
-    </div>
+    </>
   );
 };
 
