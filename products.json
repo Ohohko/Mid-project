@@ -1,0 +1,11 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title": "test",
+            "price": "500",
+            "desc": "testing",
+            "img": "https://testing.com"
+        }
+    ]
+}

@@ -40,7 +40,7 @@ function Navbar() {
               </svg>
               </button>
               <button className="btn btn-square">
-              <VoiceSearch/>
+              {/* <VoiceSearch/> */}
               </button>
            
       

@@ -1,5 +1,5 @@
 import React from "react";
-import { Auth } from "../components/Auth";
+
 import Categories from "../components/Categories";
 import Contact from "../components/Contact";
 import FeaturedProducts from "../components/FeaturedProducts";
@@ -10,14 +10,11 @@ import Products from "./Products";
 const Home = () => {
   return (
     <div data-theme="light">
-      <Hero />
-      <Auth />
-      <FeaturedProducts type="featured" />
-      <Categories />
-      <FeaturedProducts type="trending" />
-      <List />
+      {/* <Hero /> */}
+      <FeaturedProducts />
+      {/* <List />
       <Contact />
-      <Products />
+      <Products /> */}
     </div>
   );
 };

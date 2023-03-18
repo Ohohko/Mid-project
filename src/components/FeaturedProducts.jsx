@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
 import axios from "axios";
-import process from 'process';
+
 
 
 const FeaturedProducts = ({ type }) => {
@@ -10,15 +10,8 @@ const FeaturedProducts = ({ type }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(
-          process.env.REACT_APP_API_URL + "/products",
-          {
-            headers: {
-              Authorization: "bearer" + process.env.REACT_APP_API_TOKEN,
-            },
-          }
-        );
-        setData(res.data.data)
+        const res = await axios.get('https://products-53ae6-default-rtdb.europe-west1.firebasedatabase.app' + "/products.json",);
+        setData(res.data);
       } catch (error) {
         console.log(error);
       }
