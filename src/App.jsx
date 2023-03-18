@@ -19,7 +19,6 @@ function App() {
 
   return (
   <Router>
-  <div className="pt-20">
   <Navbar/>
   <Routes>
   <Route path="/" element={<Home />} />
@@ -31,7 +30,6 @@ function App() {
   <Route path='/products/:id' element={<Products />}/>
   <Route path='*' element={<NotFound />}/>
   </Routes>
-  </div>
   <Footer/>
   </Router>
   )

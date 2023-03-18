@@ -22,12 +22,6 @@ const FeaturedProducts = ({ type }) => {
   return (
     <div className="featuredProducts mx-3.5">
       <div className="top">
-        <h1>{type} products</h1>
-        <p>
-          Giving gifts to each other when there is something to celebrate or
-          something we should also just do casually! Spoiling someone once in a
-          while for no reason can do wonders.
-        </p>
       </div>
       <div className="bottom flex flex-wrap justify-center">
         {data.map((item) => (
