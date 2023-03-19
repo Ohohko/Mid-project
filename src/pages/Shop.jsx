@@ -1,12 +1,12 @@
 import React from 'react'
+import Products from './Products'
 
-function Shop() {
-
-    
+const Shop = () => {
   return (
-    <html data-theme="dark">
-  
-  </html>
+    <div data-theme="dark">
+      <Products/>
+      
+    </div>
   )
 }
 

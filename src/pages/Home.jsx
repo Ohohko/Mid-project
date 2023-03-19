@@ -1,22 +1,17 @@
 import React from "react";
-
-import Categories from "../components/Categories";
-import Contact from "../components/Contact";
+import Login from '../components/Login'
 import FeaturedProducts from "../components/FeaturedProducts";
 import Hero from "../components/Hero";
-import List from "../components/List";
-import Products from "./Products";
 import Hoverthebox from "../components/Hover the box/Hoverthebox";
 
 const Home = () => {
   return (
     <div data-theme="dark">
       <Hero />
+      <Login/>
       <FeaturedProducts />
-      <Hoverthebox/>
-
-     
-      <Contact />
+      <Hoverthebox/>      
+    
      
     </div>
   );
