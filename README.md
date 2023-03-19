@@ -10,4 +10,5 @@ With NPM:
 run on localhost on port 5173
 http://localhost:5173/
  
-React with tailwindcss
+React with tailwindcss and daisyui for frontend
+backend with strapi 
